@@ -3,4 +3,6 @@ b=2
 c=3
 # want to
 # changed to dev
-#change in dev 2
+<<<<<<< HEAD
+#change in dev 2 and new
+
