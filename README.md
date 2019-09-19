@@ -1,3 +1,5 @@
+##tensorflow-gpu-2.0趟坑实录
+
 # tensorflow-gpu-2.0 cudnn版本不一致
 
 卷积神经网络运行时，提示cudnn7.4.1,tensorflow为7.6编译，报错。
