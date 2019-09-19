@@ -1,6 +1,10 @@
-##tensorflow-gpu-2.0趟坑实录
+# tensorflow-gpu-2.0趟坑实录
 
-# tensorflow-gpu-2.0 cudnn版本不一致
+基于https://tensorflow.google.cn tutorials
+
+# 1.1tensorflow-gpu-2.0 cudnn版本不一致
+
+time:2019.9.18
 
 卷积神经网络运行时，提示cudnn7.4.1,tensorflow为7.6编译，报错。
 
