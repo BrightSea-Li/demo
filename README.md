@@ -27,3 +27,7 @@ C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include
 
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\lib\x64
+
+#1.2结构化数据特征列中的组合列，报错，暂时未搞定
+
+#1.3sklearn中的StandardScaler处理pandas.Dataframe数据后返回的是ndarray，model.fit不能直接处理，需要重新转换为pandas.Dataframe。
