@@ -37,7 +37,9 @@ time:2019.9.19
 
 # 1.3 StandardScaler处理pandas.Dataframe数据
 
+time:2019.9.19
+
 StandardScaler处理pandas.Dataframe数据返回的是ndarray，model.fit不能直接处理，需要重新转换为pandas.Dataframe。
 
 
-time:2019.9.19
+
