@@ -41,5 +41,13 @@ time:2019.9.19
 
 StandardScaler处理pandas.Dataframe数据返回的是ndarray，model.fit不能直接处理，需要重新转换为pandas.Dataframe。
 
+# 1.4 PIL Error
 
+time:2019.9.20
+
+Could not import PIL.Image. The use of `load_img` requires PIL
+
+tf.keras.preprocessing.image.ImageDataGenerator中from PIL import Image as pil_image
+
+引入PIL.Image时应保持一致，否则报错
 
