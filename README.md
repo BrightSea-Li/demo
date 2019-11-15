@@ -54,7 +54,19 @@ tf.keras.preprocessing.image.ImageDataGenerator中from PIL import Image as pil_i
 
 # 1.5 ProfilerNotRunningError: Cannot stop profiling. No profiler is running.
 
+time:2019.11.15
+
 https://blog.csdn.net/weixin_41010198/article/details/102815483
 
 logdir = './cnn_selu_callbacks'--->logdir = os.path.join("cnn_selu_callbacks")
 
+# 1.6 ValueError: Duplicate plugins for name projector
+
+
+time:2019.11.15
+
+使用tensorboard时报错，并提示采用了不同路径的tensorboard
+
+https://blog.csdn.net/Avada_533/article/details/102223823
+
+在提示的site-packages文件夹下, 删掉tensorboard--2.0.0dist-info
