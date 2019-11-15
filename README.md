@@ -51,3 +51,10 @@ tf.keras.preprocessing.image.ImageDataGenerator中from PIL import Image as pil_i
 
 引入PIL.Image时应保持一致，否则报错
 
+
+# 1.5 ProfilerNotRunningError: Cannot stop profiling. No profiler is running.
+
+https://blog.csdn.net/weixin_41010198/article/details/102815483
+
+logdir = './cnn_selu_callbacks'--->logdir = os.path.join("cnn_selu_callbacks")
+
